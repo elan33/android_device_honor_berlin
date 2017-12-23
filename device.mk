@@ -122,6 +122,19 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# IFAA (Fingerprint support for Alipay)
+PRODUCT_PACKAGES += \
+	org.ifaa.android.manager
+PRODUCT_BOOT_JARS += \
+	org.ifaa.android.manager
+	
+# SOTER (Fingerprint support for WeChat Payment)
+PRODUCT_PACKAGES += \
+    soter
+
+PRODUCT_BOOT_JARS += \
+    soter
+	
 # Doze
 #PRODUCT_PACKAGES += \
 #    HisiDoze
