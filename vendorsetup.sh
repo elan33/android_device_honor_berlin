@@ -1,1 +1,3 @@
+add_lunch_combo aosp_berlin-user
 add_lunch_combo aosp_berlin-userdebug
+add_lunch_combo aosp_berlin-eng
