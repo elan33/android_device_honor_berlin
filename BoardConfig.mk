@@ -131,6 +131,9 @@ TARGET_RIL_VARIANT := proprietary
 # Enable WEBGL
 ENABLE_WEBGL := true
 
+# Code By Aayush Gupta & RainSnow
+# AOSP vendor build fix
+TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_hi6250
 TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_berlin.cpp
 
